@@ -1,68 +1,59 @@
-📋 Task Management Web Application
-A full-stack web application that allows users to view, accept, reject, and complete tasks through an intuitive and interactive interface. Built using React for the frontend and Node.js/Express for the backend, the project demonstrates modern web development practices with API integration, state management, and dynamic UI updates.
+# 📋 Task Management Web Application
 
-🚀 Features
-🧾 View all assigned tasks in a scrollable interface
+A full-stack web application that allows users to view, accept, reject, and complete tasks through an intuitive and interactive interface. Built using **React** for the frontend and **Node.js/Express** for the backend, the project demonstrates modern web development practices with API integration, state management, and dynamic UI updates.
 
-✅ Accept or complete tasks with real-time feedback
+---
 
-❌ Reject tasks with feedback input
+## 🚀 Features
 
-🔄 Seamless UI updates on task actions (without refresh)
+- 🧾 View all assigned tasks in a scrollable interface  
+- ✅ Accept or complete tasks with real-time feedback  
+- ❌ Reject tasks with feedback input  
+- 🔄 Seamless UI updates on task actions (without refresh)  
+- 📡 Backend API integration for CRUD operations  
 
-📡 Backend API integration for CRUD operations
+---
 
-🛠️ Tech Stack
-Frontend
+## 🛠️ Tech Stack
 
-React
+### Frontend
+- React  
+- Tailwind CSS  
+- React Icons  
 
-Tailwind CSS
+### Backend
+- Node.js  
+- Express  
+- MongoDB  
+- Mongoose  
 
-React Icons
+---
 
-Backend
+## 📁 Folder Structure
 
-Node.js
+main-folder/ │ ├── frontend/ # React Frontend │ ├── src/ │ └── .gitignore │ ├── backend/ # Node.js Backend │ ├── routes/ │ ├── models/ │ ├── controllers/ │ └── .gitignore │ ├── .gitignore # Root (optional) └── README.md
 
-Express
+---
 
-MongoDB
+## 💡 Learnings
 
-Mongoose
+- Hands-on experience building a full-stack web application  
+- Improved understanding of API integration and state management in React  
 
+---
 
-Folder Structure
+## ⚙️ Setup Instructions
 
-main-folder/
-│
-├── frontend/           # React Frontend
-│   ├── src/
-│   └── .gitignore
-│
-├── backend/            # Node.js Backend
-│   ├── routes/
-│   ├── models/
-│   ├── controllers/
-│   └── .gitignore
-│
-├── .gitignore          # Root (optional)
-└── README.md
+### Frontend
 
-💡 Learnings
-Hands-on experience building a full-stack web application
-
-Improved understanding of API integration and state management in React
-
-Setup Instructions
-Frontend
-
-cd frontend
+```bash
+cd EmployeManagementSystem
 npm install
 npm start
 
-Backend
+### Backend
 
-cd backend
+```bash
+cd EMS Backend
 npm install
-npm run dev
+npm start
